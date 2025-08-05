@@ -1,0 +1,58 @@
+h1 {
+    color: #0000FF;
+    font-size: 25px;
+}
+
+p {
+    color: #FF0000;
+    font-size: 20px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.redirect {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.redirect:hover{
+    background-color: #1423DC;
+    cursor: pointer;
+    padding: 15px;
+}
+
+label {
+    color: #0000FF;
+}
+
+input::placeholder{
+    color: red;
+}
+
+input[type="checkbox"] {
+    caret-color: red;
+}
+
+input {
+    margin-top: 5px;
+}
+
+input:hover{
+    border: 1px solid #FF0000;
+    cursor: pointer;
+}
+
+img {
+    width: 100px;
+}
