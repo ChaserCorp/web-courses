@@ -1,0 +1,94 @@
+body {
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 92, 184, 1) 64%);
+}
+
+
+div {
+    .centrage {text-align: center;}
+    color: aquamarine;
+    font-family: cursive;
+    max-width:  250px;
+    margin: auto;
+    
+    
+}
+
+h2 {
+   color: rgb(219, 9, 9);
+
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.joinBtn {
+  width: 10em;
+  height: 5ex;
+  background-color: gold;
+  border: 2px solid firebrick;
+  border-radius: 10px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+.joinBtn:hover {
+  background-color: bisque;
+}
+
+label {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(19, 241, 30);
+}
+
+
+img {
+    max-width:  650px;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.mouse-cursor-gradient-tracking {
+  position: relative;
+  background: #7983ff;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+}
+
+.mouse-cursor-gradient-tracking span {
+  position: relative;
+}
+
+.mouse-cursor-gradient-tracking::before {
+  --size: 0;
+  content: "";
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: var(--size);
+  height: var(--size);
+  background: radial-gradient(circle closest-side, pink, transparent);
+  transform: translate(-50%, -50%);
+  transition:
+    width 0.2s ease,
+    height 0.2s ease;
+}
+
+.mouse-cursor-gradient-tracking:hover::before {
+  --size: 200px;
+}
+
+button {
+    background: radial-gradient(circle closest-side, pink, transparent);
+    transform: translate(-50%, -50%);
+}
